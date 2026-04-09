@@ -46,7 +46,7 @@ function App() {
    */
   const SERVER_IP = 'premium.mightymc.club'; // Your Minecraft server IP
   const DISCORD_INVITE = 'https://discord.gg/bpf58wac4M'; // Your Discord invite URL
-  const SERVER_IP_Crack = 'mightymc.club'
+
 
   /**
    * Live Statistics Hooks
