@@ -101,7 +101,7 @@ export const useDiscordStats = (
 
     try {
       // Extract invite code from full Discord URL if provided
-      const inviteCode = discordInvite.includes('discord.gg/bpf58wac4M') 
+      const inviteCode = discordInvite.includes('bpf58wac4M') 
         ? discordInvite.split('discord.gg/bpf58wac4M')[1].split('?')[0]
         : discordInvite;
 
