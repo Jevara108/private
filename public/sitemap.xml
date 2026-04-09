@@ -6,7 +6,7 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://creepercraft.net/</loc>
+    <loc>https://mightymc.net/</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
   
   <!-- Rankings Section -->
   <url>
-    <loc>https://creepercraft.net/#ranking</loc>
+    <loc>https://mightymc.net/#ranking</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -22,7 +22,7 @@
   
   <!-- Shop Section -->
   <url>
-    <loc>https://creepercraft.net/#shop</loc>
+    <loc>https://mightymc.net/#shop</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -30,7 +30,7 @@
   
   <!-- Server Map -->
   <url>
-    <loc>https://creepercraft.net/#map</loc>
+    <loc>https://mightymc.net/#map</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -38,7 +38,7 @@
   
   <!-- Vote Section -->
   <url>
-    <loc>https://creepercraft.net/#vote</loc>
+    <loc>https://mightymc.net/#vote</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -46,7 +46,7 @@
   
   <!-- Bans Section -->
   <url>
-    <loc>https://creepercraft.net/#bans</loc>
+    <loc>https://mightymc.net/#bans</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -54,7 +54,7 @@
   
   <!-- Staff Section -->
   <url>
-    <loc>https://creepercraft.net/#staff</loc>
+    <loc>https://mightymc.net/#staff</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -62,7 +62,7 @@
   
   <!-- FAQ Section -->
   <url>
-    <loc>https://creepercraft.net/#faq</loc>
+    <loc>https://mightymc.net/#faq</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
