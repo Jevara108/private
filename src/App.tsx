@@ -46,6 +46,7 @@ function App() {
    */
   const SERVER_IP = 'premium.mightymc.club'; // Your Minecraft server IP
   const DISCORD_INVITE = 'https://discord.gg/bpf58wac4M'; // Your Discord invite URL
+  const SERVER_IP_CRACK = 'mightymc.club';
   
   /**
    * Live Statistics Hooks
@@ -55,8 +56,8 @@ function App() {
   const minecraftStats = useMinecraftStats(SERVER_IP, 139);
   
   /**
-   * Server IP copy state
-   * @type {boolean} copied - Whether the server IP was recently copied
+   * Server IP copy stateed - Whether the server IP was recently co
+   * @type {boolean} copipied
    */
   const [copied, setCopied] = useState(false);
   
@@ -91,7 +92,7 @@ function App() {
    * @function copyServerIP
    */
   const copyServerIP = () => {
-    const ipToCopy = SERVER_IP || 'play.zaosmc.com';
+    const ipToCopy = SERVER_IP_CRACK || 'mightymc.club';
     navigator.clipboard.writeText(ipToCopy);
     setCopied(true);
     
