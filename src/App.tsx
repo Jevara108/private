@@ -24,6 +24,8 @@ import { HeroSection } from './components/HeroSection';
 import { RankingsSection } from './components/RankingsSection';
 import { ServerShopSection } from './components/ServerShopSection';
 import { ServerMapSection } from './components/ServerMapSection';
+import { VoteSection } from './components/VoteSection';
+import { BansSection } from './components/BansSection';
 import { StaffSection } from './components/StaffSection';
 import { FAQSection } from './components/FAQSection';
 import { Footer } from './components/Footer';
@@ -44,8 +46,8 @@ function App() {
    */
   const SERVER_IP = 'premium.mightymc.club'; // Your Minecraft server IP
   const DISCORD_INVITE = 'https://discord.gg/bpf58wac4M'; // Your Discord invite URL
-  const SERVER_IP_CRACK = 'mightymc.club';
-  
+  const SERVER_IP_Crack = 'mightymc.club'
+
   /**
    * Live Statistics Hooks
    * These hooks fetch live data and fall back to static values if no server details provided
@@ -54,8 +56,8 @@ function App() {
   const minecraftStats = useMinecraftStats(SERVER_IP, 139);
   
   /**
-   * Server IP copy stateed - Whether the server IP was recently co
-   * @type {boolean} copipied
+   * Server IP copy state
+   * @type {boolean} copied - Whether the server IP was recently copied
    */
   const [copied, setCopied] = useState(false);
   
@@ -90,7 +92,7 @@ function App() {
    * @function copyServerIP
    */
   const copyServerIP = () => {
-    const ipToCopy = SERVER_IP_CRACK || 'mightymc.club';
+    const ipToCopy = SERVER_IP_Crack || 'play.zaosmc.com';
     navigator.clipboard.writeText(ipToCopy);
     setCopied(true);
     

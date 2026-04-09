@@ -25,6 +25,7 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight, Check, X, Crown, Star, Zap, Shield } from 'lucide-react';
 import { ChestComponent } from './ChestComponent';
+import { bundles } from '../data/bundles';
 import Link from "next/link";
 
 // ==================== INTERFACES ====================
