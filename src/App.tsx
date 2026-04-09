@@ -44,8 +44,8 @@ function App() {
    * Server Configuration
    * Update these values with your actual server details
    */
-  const SERVER_IP = 'play.zaosmc.com'; // Your Minecraft server IP
-  const DISCORD_INVITE = 'https://discord.gg/PJu5qUfUbA'; // Your Discord invite URL
+  const SERVER_IP = 'mightymc.club'; // Your Minecraft server IP
+  const DISCORD_INVITE = 'https://discord.gg/bpf58wac4M'; // Your Discord invite URL
   
   /**
    * Live Statistics Hooks
