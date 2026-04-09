@@ -47,7 +47,6 @@ function App() {
   const SERVER_IP = 'premium.mightymc.club'; // Your Minecraft server IP
   const DISCORD_INVITE = 'https://discord.gg/bpf58wac4M'; // Your Discord invite URL
 
-
   /**
    * Live Statistics Hooks
    * These hooks fetch live data and fall back to static values if no server details provided
@@ -92,7 +91,7 @@ function App() {
    * @function copyServerIP
    */
   const copyServerIP = () => {
-    const ipToCopy = SERVER_IP_Crack || 'play.zaosmc.com';
+    const ipToCopy = SERVER_IP || 'mightymc.net';
     navigator.clipboard.writeText(ipToCopy);
     setCopied(true);
     
