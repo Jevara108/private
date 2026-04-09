@@ -24,8 +24,6 @@ import { HeroSection } from './components/HeroSection';
 import { RankingsSection } from './components/RankingsSection';
 import { ServerShopSection } from './components/ServerShopSection';
 import { ServerMapSection } from './components/ServerMapSection';
-import { VoteSection } from './components/VoteSection';
-import { BansSection } from './components/BansSection';
 import { StaffSection } from './components/StaffSection';
 import { FAQSection } from './components/FAQSection';
 import { Footer } from './components/Footer';
